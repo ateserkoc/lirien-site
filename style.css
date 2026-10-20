@@ -1,0 +1,42 @@
+:root {
+  --bg: #F6F4FB;
+  --surface: #FFFFFF;
+  --text: #1E1631;
+  --muted: #5D5670;
+  --accent: #5B4BB7;
+  --line: #E4E0EF;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15101F;
+    --surface: #1E1730;
+    --text: #EEEAF8;
+    --muted: #ABA4C0;
+    --accent: #B4A8F0;
+    --line: #2E2645;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px; }
+.brand { font-size: 22px; font-weight: 600; letter-spacing: .04em; color: var(--text); text-decoration: none; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
+nav a:hover, a { color: var(--accent); }
+h1 { font-size: 34px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+h3 { font-size: 17px; margin: 22px 0 4px; }
+p, li { color: var(--text); }
+.lead { font-size: 19px; color: var(--muted); margin: 0 0 28px; }
+.muted { color: var(--muted); font-size: 15px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 16px 0; }
+.lang { display: flex; gap: 10px; margin: 0 0 24px; }
+.lang a { border: 1px solid var(--line); border-radius: 999px; padding: 4px 14px; text-decoration: none; font-size: 14px; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+footer { margin-top: 56px; color: var(--muted); font-size: 14px; }

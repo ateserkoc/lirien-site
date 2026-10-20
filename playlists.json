@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "updated": "2026-10-19",
+  "presets": {
+    "above_the_clouds": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX1n9whBbBKoL",
+          "name": "Floating Through Space"
+        },
+        {
+          "id": "37i9dQZF1DX3Ogo9pFvBkY",
+          "name": "Ambient Relaxation"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.a9bd89e7b22e45cbaac40b58c9d3d09b",
+          "name": "Pure Ambient"
+        },
+        {
+          "id": "pl.0809734db4b54d5eb7192a92a8cbf1c2",
+          "name": "Atmospheres"
+        }
+      ]
+    },
+    "autumn_red": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DXcWBRiUaG3o5",
+          "name": "Evening Acoustic"
+        },
+        {
+          "id": "37i9dQZF1DWVqfgj8NZEp1",
+          "name": "Coffee Table Jazz"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.b5e8dbe8a706496496e1292466839207",
+          "name": "Acoustic Chill"
+        },
+        {
+          "id": "pl.1c1744bbc1174cf2880c53b302d428a0",
+          "name": "Lo-Fi Jazz"
+        }
+      ]
+    },
+    "beach_party": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX1BzILRveYHb",
+          "name": "Sunny Day"
+        },
+        {
+          "id": "37i9dQZF1DWYBO1MoTDhZI",
+          "name": "Good Vibes"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.e6441e3d39664b9997d3533e7e65e037",
+          "name": "Acoustic Summer"
+        },
+        {
+          "id": "pl.7197f862319747fcbb944c7baec9c2b6",
+          "name": "Lo-Fi Breeze"
+        }
+      ]
+    },
+    "city_nights": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX6GJXiuZRisr",
+          "name": "Night Rider"
+        },
+        {
+          "id": "37i9dQZF1DX4wta20PHgwo",
+          "name": "Late Night Jazz"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.f494429097a74da48204a51b7f25901b",
+          "name": "Midnight City"
+        },
+        {
+          "id": "pl.920d53fb8c0c4d30b18f8d3a5f2f2700",
+          "name": "The Night Owl Essentials"
+        }
+      ]
+    },
+    "coffee_and_books": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX6ziVCJnEm59",
+          "name": "Your Favorite Coffeehouse"
+        },
+        {
+          "id": "37i9dQZF1DWVqfgj8NZEp1",
+          "name": "Coffee Table Jazz"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.63271312c084419891982eab46cc68ac",
+          "name": "Jazz Chill"
+        },
+        {
+          "id": "pl.0b448cf227014bde8f986ecad02c93de",
+          "name": "Living in the Library"
+        }
+      ]
+    },
+    "cozy_winter": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX5IDTimEWoTd",
+          "name": "Warm Fuzzy Feeling"
+        },
+        {
+          "id": "37i9dQZF1DX4sWSpwq3LiO",
+          "name": "Peaceful Piano"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+          "name": "Piano Chill"
+        },
+        {
+          "id": "pl.171ed575105547da92990578cb1639be",
+          "name": "Chill Covers"
+        }
+      ]
+    },
+    "dark_and_stormy": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX2pSTOxoPbx9",
+          "name": "Dark & Stormy"
+        },
+        {
+          "id": "37i9dQZF1DX4aYNO8X5RpR",
+          "name": "Nightstorms"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.081a158be181420da5491ba336e8b74a",
+          "name": "Thunderstorms"
+        },
+        {
+          "id": "pl.c724b210445541e7a306561d89761ca2",
+          "name": "Infinite Rain"
+        }
+      ]
+    },
+    "dog_relaxation": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX0jgyAiPl8Af",
+          "name": "Peaceful Guitar"
+        },
+        {
+          "id": "37i9dQZF1DWWEJlAGA9gs0",
+          "name": "Classical Essentials"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+          "name": "Relaxing Classical"
+        },
+        {
+          "id": "pl.ffc344338c3d4ff394ddcf94d766c143",
+          "name": "Pure Calm"
+        }
+      ]
+    },
+    "good_morning": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX0UrRvztWcAU",
+          "name": "Wake Up Happy"
+        },
+        {
+          "id": "37i9dQZF1DXc5e2bJhV6pu",
+          "name": "Morning Motivation"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.b8fb320dcf8b4ce3a929f888257d380e",
+          "name": "Get Up and Go"
+        },
+        {
+          "id": "pl.d710b9dcbdc54590b9cfbe09c3be4902",
+          "name": "Classical A.M."
+        }
+      ]
+    },
+    "lucid_dreaming": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX3Ogo9pFvBkY",
+          "name": "Ambient Relaxation"
+        },
+        {
+          "id": "37i9dQZF1DWYcDQ1hSjOpY",
+          "name": "Deep Sleep"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.2ce0acb450d048c49d4c4b52b2f4b195",
+          "name": "Ambient Sleep"
+        },
+        {
+          "id": "pl.fcf37254bdd449e3a815d797ed66840f",
+          "name": "Sound Bath"
+        }
+      ]
+    },
+    "meditation": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DWZqd5JICZI0u",
+          "name": "Peaceful Meditation"
+        },
+        {
+          "id": "37i9dQZF1DX9uKNf5jGX6m",
+          "name": "Yoga & Meditation"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.e896478fdf824a93ab2f99165c3a1422",
+          "name": "Pure Meditation"
+        },
+        {
+          "id": "pl.fcf37254bdd449e3a815d797ed66840f",
+          "name": "Sound Bath"
+        }
+      ]
+    },
+    "rainy_day": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DWYxwmBaMqxsl",
+          "name": "Rainy Day Jazz"
+        },
+        {
+          "id": "37i9dQZF1DX8ymr6UES7vc",
+          "name": "Rain Sounds"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.e79d63bcaead407fb44a0c19380822e6",
+          "name": "Rain Sounds"
+        },
+        {
+          "id": "pl.1c1744bbc1174cf2880c53b302d428a0",
+          "name": "Lo-Fi Jazz"
+        }
+      ]
+    },
+    "relax_and_unwind": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DWXe9gFZP0gtP",
+          "name": "Stress Relief"
+        },
+        {
+          "id": "37i9dQZF1DX1s9knjP51Oa",
+          "name": "calm vibes"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.ffc344338c3d4ff394ddcf94d766c143",
+          "name": "Pure Calm"
+        },
+        {
+          "id": "pl.4f2b5ddd448344a1848db8259e6c5f5b",
+          "name": "Spa"
+        }
+      ]
+    },
+    "sleep_baby_sleep": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX0DxcHtn4Hwo",
+          "name": "Baby Sleep"
+        },
+        {
+          "id": "37i9dQZF1DX03b46zi3S82",
+          "name": "Sleepy Piano"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.1a781a94089a474bbf7efdddc4cf6c94",
+          "name": "Baby Sleep"
+        },
+        {
+          "id": "pl.51696521d6f7480faceaaa38d4deeb2d",
+          "name": "Classical Lullabies"
+        }
+      ]
+    },
+    "sleep_well": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DWYcDQ1hSjOpY",
+          "name": "Deep Sleep"
+        },
+        {
+          "id": "37i9dQZF1DWZd79rJ6a7lp",
+          "name": "Sleep"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.0ef59752c0cd457dbf1391f08cbd936f",
+          "name": "Sleep Sounds"
+        },
+        {
+          "id": "pl.0c99e70862bb4d07bd7eeaba01760a92",
+          "name": "Piano Sleep"
+        }
+      ]
+    },
+    "star_gazing": {
+      "spotify": [
+        {
+          "id": "37i9dQZF1DX1n9whBbBKoL",
+          "name": "Floating Through Space"
+        },
+        {
+          "id": "37i9dQZF1DWZeKCadgRdKQ",
+          "name": "Deep Focus"
+        }
+      ],
+      "appleMusic": [
+        {
+          "id": "pl.0809734db4b54d5eb7192a92a8cbf1c2",
+          "name": "Atmospheres"
+        },
+        {
+          "id": "pl.bed492442a53481f98e98c6c4da9e01d",
+          "name": "Ambient Chill"
+        }
+      ]
+    }
+  }
+}
