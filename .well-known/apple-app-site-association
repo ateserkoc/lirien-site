@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["CKG98TD7PQ.com.ateserkoc.Lirien"],
+        "components": [
+          { "/": "/mix", "comment": "Paylaşılan mix linkleri" },
+          { "/": "/mix/*" }
+        ]
+      }
+    ]
+  }
+}
