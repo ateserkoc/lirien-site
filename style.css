@@ -1,42 +1,69 @@
+/* Lirien sitesi: Destek, Gizlilik ve Mix sayfaları (ana sayfa kendi stilini taşır) */
+@font-face { font-family: Dosis; src: url(/fonts/Dosis-Medium.ttf) format("truetype"); font-weight: 500; font-display: swap; }
+@font-face { font-family: Dosis; src: url(/fonts/Dosis-Bold.ttf) format("truetype"); font-weight: 700; font-display: swap; }
+@font-face { font-family: Offside; src: url(/fonts/Offside-Regular.ttf) format("truetype"); font-display: swap; }
+
 :root {
-  --bg: #F6F4FB;
-  --surface: #FFFFFF;
-  --text: #1E1631;
-  --muted: #5D5670;
-  --accent: #5B4BB7;
-  --line: #E4E0EF;
+  --bg1: #EEF0FA; --bg2: #E3DDF5;
+  --surface: rgba(255,255,255,.72);
+  --text: #1E1631; --muted: #6B6680;
+  --accent: #7517C6; --primary: #7517C6;
+  --line: rgba(117,23,198,.14);
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #15101F;
-    --surface: #1E1730;
-    --text: #EEEAF8;
-    --muted: #ABA4C0;
-    --accent: #B4A8F0;
-    --line: #2E2645;
+    --bg1: #120C1D; --bg2: #1B1230;
+    --surface: rgba(34,26,53,.78);
+    --text: #EEEAF8; --muted: #A9A2BE;
+    --accent: #B98CFF; --primary: #B98CFF;
+    --line: rgba(185,140,255,.18);
   }
 }
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; background: var(--bg2); }
 body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--text);
-  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0; min-height: 100vh; color: var(--text);
+  background: linear-gradient(180deg, var(--bg1), var(--bg2));
+  font: 500 17px/1.65 Dosis, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 }
-.wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px; }
-.brand { font-size: 22px; font-weight: 600; letter-spacing: .04em; color: var(--text); text-decoration: none; }
-nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
-nav a:hover, a { color: var(--accent); }
-h1 { font-size: 34px; line-height: 1.2; margin: 0 0 8px; }
-h2 { font-size: 21px; margin: 36px 0 8px; }
-h3 { font-size: 17px; margin: 22px 0 4px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 56px; }
+
+header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 44px; }
+.brand {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: Offside, sans-serif; font-size: 22px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--primary); text-decoration: none !important;
+}
+.brand::before {
+  content: ""; width: 34px; height: 34px; border-radius: 9px;
+  background: url(/assets/icon.png) center / cover;
+  box-shadow: 0 6px 16px rgba(117,23,198,.25);
+}
+nav a { color: var(--muted); margin-left: 20px; font-size: 16px; }
+nav a:hover { color: var(--primary); text-decoration: none; }
+
+h1 { font-weight: 700; font-size: clamp(30px, 5vw, 40px); line-height: 1.15; margin: 0 0 8px; letter-spacing: .01em; }
+h2 { font-weight: 700; font-size: 22px; margin: 36px 0 6px; }
+h3 { font-weight: 700; font-size: 18px; margin: 24px 0 4px; }
 p, li { color: var(--text); }
+ul { padding-left: 22px; }
 .lead { font-size: 19px; color: var(--muted); margin: 0 0 28px; }
 .muted { color: var(--muted); font-size: 15px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 16px 0; }
-.lang { display: flex; gap: 10px; margin: 0 0 24px; }
-.lang a { border: 1px solid var(--line); border-radius: 999px; padding: 4px 14px; text-decoration: none; font-size: 14px; }
-hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
-footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 22px;
+  padding: 22px 24px; margin: 16px 0; backdrop-filter: blur(10px);
+}
+section > h3:first-of-type { margin-top: 8px; }
+
+.lang { display: flex; gap: 10px; margin: 14px 0 28px; }
+.lang a {
+  border: 1px solid var(--line); border-radius: 999px; padding: 6px 16px;
+  font-size: 15px; background: var(--surface); text-decoration: none;
+}
+.lang a:hover { border-color: var(--primary); }
+
+hr { border: 0; border-top: 1px solid var(--line); margin: 52px 0; }
+footer { margin-top: 64px; text-align: center; color: var(--muted); font-size: 15px; }
+footer a { color: var(--muted); margin: 0 10px; }

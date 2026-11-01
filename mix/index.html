@@ -8,6 +8,8 @@
 <meta property="og:title" content="A Lirien mix">
 <meta property="og:description" content="Someone shared a soundscape with you. Open it in Lirien.">
 <link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
   .mixname { font-size: 30px; line-height: 1.2; margin: 4px 0 18px; word-break: break-word; }
   .kicker { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; color: var(--muted); }
@@ -19,6 +21,7 @@
   .btn { display: block; text-align: center; padding: 15px; border-radius: 999px; font-weight: 600; text-decoration: none; margin-top: 12px; }
   .primary { background: var(--accent); color: #fff !important; }
   .secondary { border: 1px solid var(--line); color: var(--accent); }
+  @media (prefers-color-scheme: dark) { .primary { color: #1B1230 !important; } }
   .soon { text-align: center; margin-top: 14px; }
   [hidden] { display: none !important; }
   .music { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -47,7 +50,7 @@
     <p class="lead" data-t="emptyText">Ask your friend to share it again from the app.</p>
   </div>
 
-  <footer><p>© 2026 Lirien</p></footer>
+  <footer><p><a href="/">Home</a><a href="/support/">Support</a><a href="/privacy/">Privacy</a></p><p>© 2026 Lirien</p></footer>
 </div>
 <script>
 // App Store yayına girince buraya linkini yaz: "https://apps.apple.com/app/id..."
