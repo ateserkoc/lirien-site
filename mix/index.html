@@ -21,6 +21,8 @@
   .secondary { border: 1px solid var(--line); color: var(--accent); }
   .soon { text-align: center; margin-top: 14px; }
   [hidden] { display: none !important; }
+  .music { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .music a { font-weight: 600; text-decoration: none; }
 </style>
 </head>
 <body>
@@ -31,6 +33,10 @@
     <div class="kicker" data-t="kicker">Shared mix</div>
     <h1 class="mixname" id="name"></h1>
     <div class="card" id="sounds"></div>
+    <div class="card music" id="music" hidden>
+      <span>🎵 <span data-t="withMusic">With music from Apple Music</span></span>
+      <a id="musicLink" target="_blank" rel="noopener" data-t="openMusic">Open</a>
+    </div>
     <a class="btn primary" id="open" data-t="open">Open in Lirien</a>
     <a class="btn secondary" id="store" hidden data-t="store">Get Lirien on the App Store</a>
     <p class="muted soon" id="soon" data-t="soon">Lirien is coming soon to the App Store.</p>
@@ -50,7 +56,8 @@ const APP_STORE_URL = "";
 const TR = {
   kicker: "Paylaşılan mix", open: "Lirien'de aç", store: "Lirien'i App Store'dan indir",
   soon: "Lirien yakında App Store'da.", emptyTitle: "Bu mix linki eksik görünüyor.",
-  emptyText: "Arkadaşından uygulamadan tekrar paylaşmasını iste."
+  emptyText: "Arkadaşından uygulamadan tekrar paylaşmasını iste.",
+  withMusic: "Apple Music'ten müzikle", openMusic: "Aç"
 };
 const NAMES = {
   "h.above_the_clouds": "Cloudspire Pass", "h.autumn_red": "Emberwood", "h.beach_party": "Sunhaven Bay",
@@ -86,7 +93,22 @@ if (!s.length) {
     bar.appendChild(fill); row.append(label, bar); box.appendChild(row);
   });
   // Uygulama yüklüyse Universal Link zaten uygulamayı açar; bu düğme yedek yol
-  document.getElementById("open").href = "lirien://mix?" + new URLSearchParams({ n: name, s: s.map(p => p.join(":")).join(",") });
+  // Mix'le paylaşılan Apple Music bağlantısı (base64url); yalnızca music.apple.com kabul edilir
+  const params = { n: name, s: s.map(p => p.join(":")).join(",") };
+  const am = q.get("am");
+  if (am && /^[A-Za-z0-9_-]{1,420}$/.test(am)) {
+    try {
+      const b = am.replace(/-/g, "+").replace(/_/g, "/");
+      const link = decodeURIComponent(escape(atob(b + "===".slice((b.length + 3) % 4))));
+      const u = new URL(link);
+      if (u.protocol === "https:" && (u.hostname === "music.apple.com" || u.hostname.endsWith(".music.apple.com"))) {
+        document.getElementById("musicLink").href = u.href;
+        document.getElementById("music").hidden = false;
+        params.am = am;
+      }
+    } catch (e) {}
+  }
+  document.getElementById("open").href = "lirien://mix?" + new URLSearchParams(params);
   if (APP_STORE_URL) {
     const st = document.getElementById("store"); st.href = APP_STORE_URL; st.hidden = false;
     document.getElementById("soon").hidden = true;
