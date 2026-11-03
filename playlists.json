@@ -2,7 +2,7 @@
   "version": 1,
   "updated": "2026-10-19",
   "presets": {
-    "above_the_clouds": {
+    "cloudspire_pass": {
       "spotify": [
         {
           "id": "37i9dQZF1DX1n9whBbBKoL",
@@ -24,7 +24,7 @@
         }
       ]
     },
-    "autumn_red": {
+    "emberwood": {
       "spotify": [
         {
           "id": "37i9dQZF1DXcWBRiUaG3o5",
@@ -46,7 +46,7 @@
         }
       ]
     },
-    "beach_party": {
+    "sunhaven_bay": {
       "spotify": [
         {
           "id": "37i9dQZF1DX1BzILRveYHb",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "city_nights": {
+    "nightcrown": {
       "spotify": [
         {
           "id": "37i9dQZF1DX6GJXiuZRisr",
@@ -90,7 +90,7 @@
         }
       ]
     },
-    "coffee_and_books": {
+    "lantern_library": {
       "spotify": [
         {
           "id": "37i9dQZF1DX6ziVCJnEm59",
@@ -112,7 +112,7 @@
         }
       ]
     },
-    "cozy_winter": {
+    "hearthhollow": {
       "spotify": [
         {
           "id": "37i9dQZF1DX5IDTimEWoTd",
@@ -134,7 +134,7 @@
         }
       ]
     },
-    "dark_and_stormy": {
+    "stormwatch_cliffs": {
       "spotify": [
         {
           "id": "37i9dQZF1DX2pSTOxoPbx9",
@@ -156,7 +156,7 @@
         }
       ]
     },
-    "dog_relaxation": {
+    "pawmeadow": {
       "spotify": [
         {
           "id": "37i9dQZF1DX0jgyAiPl8Af",
@@ -178,7 +178,7 @@
         }
       ]
     },
-    "good_morning": {
+    "dawnmere": {
       "spotify": [
         {
           "id": "37i9dQZF1DX0UrRvztWcAU",
@@ -200,7 +200,7 @@
         }
       ]
     },
-    "lucid_dreaming": {
+    "dreaming_tower": {
       "spotify": [
         {
           "id": "37i9dQZF1DX3Ogo9pFvBkY",
@@ -222,7 +222,7 @@
         }
       ]
     },
-    "meditation": {
+    "still_glade": {
       "spotify": [
         {
           "id": "37i9dQZF1DWZqd5JICZI0u",
@@ -244,7 +244,7 @@
         }
       ]
     },
-    "rainy_day": {
+    "mistwater_quay": {
       "spotify": [
         {
           "id": "37i9dQZF1DWYxwmBaMqxsl",
@@ -266,7 +266,7 @@
         }
       ]
     },
-    "relax_and_unwind": {
+    "slowtide_cove": {
       "spotify": [
         {
           "id": "37i9dQZF1DWXe9gFZP0gtP",
@@ -288,7 +288,7 @@
         }
       ]
     },
-    "sleep_baby_sleep": {
+    "cradle_moon": {
       "spotify": [
         {
           "id": "37i9dQZF1DX0DxcHtn4Hwo",
@@ -310,7 +310,7 @@
         }
       ]
     },
-    "sleep_well": {
+    "moonhollow": {
       "spotify": [
         {
           "id": "37i9dQZF1DWYcDQ1hSjOpY",
@@ -332,7 +332,7 @@
         }
       ]
     },
-    "star_gazing": {
+    "starwatch_hill": {
       "spotify": [
         {
           "id": "37i9dQZF1DX1n9whBbBKoL",
