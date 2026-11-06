@@ -56,12 +56,7 @@
 // App Store yayına girince buraya linkini yaz: "https://apps.apple.com/app/id..."
 const APP_STORE_URL = "";
 
-const TR = {
-  kicker: "Paylaşılan mix", open: "Lirien'de aç", store: "Lirien'i App Store'dan indir",
-  soon: "Lirien yakında App Store'da.", emptyTitle: "Bu mix linki eksik görünüyor.",
-  emptyText: "Arkadaşından uygulamadan tekrar paylaşmasını iste.",
-  withMusic: "Apple Music'ten müzikle", openMusic: "Aç"
-};
+
 const NAMES = {
   "h.cloudspire_pass": "Cloudspire Pass",
   "h.emberwood": "Emberwood",
@@ -104,10 +99,6 @@ const q = new URLSearchParams(location.search);
 const s = (q.get("s") || "").split(",").map(p => p.split(":"))
   .filter(p => p.length === 2 && /^(h\.)?[a-z_]{1,40}$/.test(p[0]) && /^\d{1,3}$/.test(p[1])).slice(0, 24);
 
-if (navigator.language && navigator.language.toLowerCase().startsWith("tr")) {
-  document.documentElement.lang = "tr";
-  document.querySelectorAll("[data-t]").forEach(el => { if (TR[el.dataset.t]) el.textContent = TR[el.dataset.t]; });
-}
 
 if (!s.length) {
   document.getElementById("empty").hidden = false;
