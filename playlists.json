@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "presets": {
     "cloudspire_pass": {
       "spotify": [
@@ -37,6 +37,10 @@
       ],
       "appleMusic": [
         {
+          "id": "pl.f44d3b6fe0724fc3be38bde21d6e67da",
+          "name": "Acoustic Autumn"
+        },
+        {
           "id": "pl.b5e8dbe8a706496496e1292466839207",
           "name": "Acoustic Chill"
         }
@@ -57,6 +61,10 @@
         {
           "id": "pl.e6441e3d39664b9997d3533e7e65e037",
           "name": "Acoustic Summer"
+        },
+        {
+          "id": "pl.522581bf8c264bafa742e75df9772078",
+          "name": "Acoustic Hits"
         }
       ]
     },
@@ -117,8 +125,12 @@
       ],
       "appleMusic": [
         {
-          "id": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-          "name": "Piano Chill"
+          "id": "pl.f833db3606e8410f954dabed1c09b573",
+          "name": "Dinner Jazz"
+        },
+        {
+          "id": "pl.24fcb89adeff43aba6843a08a3f479ac",
+          "name": "Winter Jazz"
         }
       ]
     },
@@ -135,8 +147,12 @@
       ],
       "appleMusic": [
         {
-          "id": "pl.51696521d6f7480faceaaa38d4deeb2d",
-          "name": "Classical Lullabies"
+          "id": "pl.b1540f641e5a4218a26b46abeaf4949f",
+          "name": "Jazzical"
+        },
+        {
+          "id": "pl.bebd6f2ab1df483b82811252f283e18c",
+          "name": "Coffee and Contemplation"
         }
       ]
     },
@@ -155,6 +171,10 @@
         {
           "id": "pl.ffc344338c3d4ff394ddcf94d766c143",
           "name": "Pure Calm"
+        },
+        {
+          "id": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+          "name": "Piano Chill"
         }
       ]
     },
@@ -173,6 +193,10 @@
         {
           "id": "pl.7829118459014cc18282086efda91458",
           "name": "Jazz Sunrise"
+        },
+        {
+          "id": "pl.dcc30348803d4d2ab81642c87d933e90",
+          "name": "Jazz Soul Café"
         }
       ]
     },
@@ -191,6 +215,10 @@
         {
           "id": "pl.2ce0acb450d048c49d4c4b52b2f4b195",
           "name": "Ambient Sleep"
+        },
+        {
+          "id": "pl.62c2a36c0f8a497fb4808c5d75b44d59",
+          "name": "Sleep Music for Deep Sleep"
         }
       ]
     },
@@ -209,6 +237,10 @@
         {
           "id": "pl.e896478fdf824a93ab2f99165c3a1422",
           "name": "Pure Meditation"
+        },
+        {
+          "id": "pl.4f2b5ddd448344a1848db8259e6c5f5b",
+          "name": "Spa"
         }
       ]
     },
@@ -227,6 +259,10 @@
         {
           "id": "pl.1c1744bbc1174cf2880c53b302d428a0",
           "name": "Lo-Fi Jazz"
+        },
+        {
+          "id": "pl.ae3d5c160f9245d3beae7a001260752c",
+          "name": "Lo-Fi Chill: Jazz Hip-Hop Vibes"
         }
       ]
     },
@@ -245,6 +281,10 @@
         {
           "id": "pl.ffc344338c3d4ff394ddcf94d766c143",
           "name": "Pure Calm"
+        },
+        {
+          "id": "pl.efdca00365ed477ca1275a38c2a3ef76",
+          "name": "Chill Piano Hits"
         }
       ]
     },
@@ -263,6 +303,10 @@
         {
           "id": "pl.1a781a94089a474bbf7efdddc4cf6c94",
           "name": "Baby Sleep"
+        },
+        {
+          "id": "pl.51696521d6f7480faceaaa38d4deeb2d",
+          "name": "Classical Lullabies"
         }
       ]
     },
